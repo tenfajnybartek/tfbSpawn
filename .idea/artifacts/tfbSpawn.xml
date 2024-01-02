@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tfbSpawn">
+    <output-path>$USER_HOME$/Desktop/network/main/plugins</output-path>
+    <root id="archive" name="tfbSpawn.jar">
+      <element id="module-output" name="spawnplugin" />
+    </root>
+  </artifact>
+</component>

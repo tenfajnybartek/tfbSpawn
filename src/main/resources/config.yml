@@ -1,0 +1,31 @@
+# config.yml
+
+# Ustawienia spawnu
+spawn:
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  world: world
+
+# Opcja wyświetlania wiadomości dot. komendy /spawn (CHAT/ACTIONBAR/TITLE)
+viewOption: TITLE
+
+# Niestandardowe wiadomości
+messages:
+  setspawn: "&aSpawn został ustawiony pomyślnie!"
+  spawn: "&aZostałeś przeniesiony na spawn!"
+  nopermission: "&cNie masz odpowiednich uprawnień do użycia tej komendy!"
+  teleporting: "&aZostaniesz przeteleportowany za &7%time%s!"
+  reloadmessage: "&aPlugin został pomyślnie przeładowany!"
+  firstjointeleport: "&aWitaj na serwerze! Zostałeś przeteleportowany na spawn."
+  alreadyteleporting: '&cJuż jesteś w trakcie teleportacji!'
+  teleportcancel: '&cPoruszyłeś się! Teleportacja została przerwana.'
+
+# Niestandardowe uprawnienia
+permissions:
+  setspawn: "spawnplugin.setspawn"
+  spawn: "spawnplugin.spawn"
+  reload: "spawnplugin.reload"
+
+# Opóźnienie przed teleportacją (w sekundach)
+teleportdelay: 10

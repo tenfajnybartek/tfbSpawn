@@ -1,0 +1,12 @@
+name: tfbSpawn
+version: '0.0.1-SNAPSHOT'
+main: pl.tenfajnybartek.spawnplugin.base.SpawnPlugin
+api-version: '1.20'
+
+commands:
+  setspawn:
+    description: Ustawienie spawnu dla graczy.
+  spawn:
+    description: Teleportacja na spawn.
+  spawnreload:
+    description: Przeładowanie pluginu.
